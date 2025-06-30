@@ -143,7 +143,7 @@ import Proyek2 from "/assets/proyek/Proyek2.png";
 import Proyek3 from "/assets/proyek/Proyek3.png";
 import Proyek4 from "/assets/proyek/Proyek4.png";
 import Proyek5 from "/assets/proyek/Proyek5.png";
-import Proyek6 from "/assets/proyek/proyek6.webp";
+import Proyek6 from "/assets/proyek/Proyek6.png";
 
 export const listProyek = [
   {
@@ -185,7 +185,7 @@ export const listProyek = [
   {
     id: 5,
     gambar: Proyek5,
-    nama: "Web Portfolio",
+    nama: "Web Perpustakaan",
     desk: "Website perpustakaan sederhana yang memungkinkan pengguna meminjam buku secara online dengan mudah dan cepat.",
     tools: ["HTML", "CSS", "Javascript", "Bootsrap"],
     dad: "600",
@@ -196,8 +196,35 @@ export const listProyek = [
     gambar: Proyek6,
     nama: "Website Portofolio2",
     desk: "Portofolio digital yang mencerminkan keahlian di bidang pengembangan web dan jaringan komputer.",
-    tools: ["NextJS", "TailwindCSS", "Framermotion"],
+    tools: ["ReactJS", "TailwindCSS", "JavaScript", "HTML"],
     dad: "700",
-    link: "",
+    link: "https://github.com/FauzanSetengahSalmon/Portofolio2",
+  },
+];
+
+import Proyek7 from "/assets/proyek2/Proyek1.png";
+
+export const listProyek2 = [
+  {
+    id: 7,
+    gambar: Proyek7,
+    nama: "UI/UX Design Food App",
+    desk: "Proyek UI/UX untuk aplikasi kuliner yang menampilkan kemampuan desain, serta dukungan teknis di sisi web development dan jaringan.",
+    tools: ["Figma"],
+    dad: "800",
+    link: "https://youtu.be/Mq_KopH083Q",
+  },
+];
+
+import Proyek8 from "/assets/pengalaman/Pengalaman1.jpeg";
+
+export const listProyek3 = [
+  {
+    id: 8,
+    gambar: Proyek8,
+    nama: "Lomba IT Network Competition 2023 Tingkat Provinsi Lampung",
+    desk: "Saya mengikuti kompetisi IT Network tingkat provinsi yang menguji kemampuan dalam konfigurasi jaringan, troubleshooting, dan manajemen infrastruktur TI. Dalam ajang tersebut, saya berhasil meraih peringkat 6 besar sebagai bentuk pencapaian dan dedikasi dalam bidang jaringan komputer.",
+    tools: ["Mikrotik", "Cisco Packet Tracer", "VirtualBox"],
+    dad: "900",
   },
 ];

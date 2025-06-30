@@ -6,18 +6,19 @@ const Footer = () => {
         <a href="#beranda">Beranda</a>
         <a href="#tentang">Tentang</a>
         <a href="#proyek">Proyek</a>
+        <a href="#pengalaman">Pengalaman</a>
       </div>
       <div className="flex items-center gap-3 ">
-        <a href="#" aria-label="GitHub">
+        <a href="https://github.com/FauzanSetengahSalmon" aria-label="GitHub">
           <i className="ri-github-fill ri-2x"></i>
         </a>
-        <a href="#" aria-label="GitHub">
+        <a href="https://www.instagram.com/fauzannnnnnn.r?igsh=MWxuN3Z4bm9jY2R3aA%3D%3D&utm_source=qr" aria-label="Instagram">
           <i className="ri-instagram-fill ri-2x"></i>
         </a>
-        <a href="#" aria-label="GitHub">
-          <i className="ri-reddit-fill ri-2x"></i>
+        <a href="https://www.linkedin.com/in/ahmad-fauzan-ramadhan/" aria-label="LinkedIn">
+          <i className="ri-linkedin-fill ri-2x"></i>
         </a>
-        <a href="#" aria-label="GitHub">
+        <a href="https://youtube.com/@fauzannakk?si=ZL6wtqbN75yyphjo" aria-label="GitHub">
           <i className="ri-youtube-fill ri-2x"></i>
         </a>
       </div>
