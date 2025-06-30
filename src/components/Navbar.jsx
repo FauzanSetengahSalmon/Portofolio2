@@ -19,42 +19,26 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div className="navbar py-7 px-7 flex items-center justify-between">
+    <div className="navbar py-7 px-7 flex items-center justify-between fixed top-0 left-0 w-full z-50 bg-zinc-900">
       <div className="logo">
-        <h1 className="text-3xl font-bold bg-transparent text-white p-1 md:bg-transparent md:text-white">
-          My Portofolio
-        </h1>
+        <h1 className="text-xl font-bold text-white">My Portofolio</h1>
       </div>
+
       <ul
-        className={`menu flex items-center sam:gap-10 gap-4 md:static fixed left-1/2 -translate-x-1/2 md:-translate-x-0 md:opacity-100 bg-white/30 backdrop-blur-md p-4 rounded-br-2xl rounded-bl-2xl md:bg-transparent transition-all md:transition-none z-40 ${
-          active ? "top-0 opacity-100" : "-top-10 opacity-0"
+        className={`menu flex flex-wrap items-center gap-4 md:gap-10 md:static absolute top-full left-1/2 -translate-x-1/2 md:left-0 md:translate-x-0 bg-white/30 backdrop-blur-md p-4 rounded-b-2xl md:bg-transparent md:p-0 transition-all duration-300 ${
+          active ? "md:opacity-100 md:top-full" : "md:-top-10 md:opacity-0"
         }`}
       >
-        <li className="text-base sm:text-lg font-medium px-2 sm:px-3">
-          <a href="#beranda" className="sm:text-lg text-base font-medium">
-            Beranda
-          </a>
-        </li>
-        <li className="text-base sm:text-lg font-medium px-2 sm:px-3">
-          <a href="#tentang" className="sm:text-lg text-base font-medium">
-            Tentang
-          </a>
-        </li>
-        <li className="text-base sm:text-lg font-medium px-2 sm:px-3">
-          <a href="#proyek" className="sm:text-lg text-base font-medium">
-            Proyek
-          </a>
-        </li>
-        <li className="text-base sm:text-lg font-medium px-2 sm:px-3">
-          <a href="#pengalaman" className="sm:text-lg text-base font-medium">
-            Pengalaman
-          </a>
-        </li>
-        <li className="text-base sm:text-lg font-medium px-2 sm:px-3">
-          <a href="#kontak" className="sm:text-lg text-base font-medium">
-            Kontak
-          </a>
-        </li>
+        {["Beranda", "Tentang", "Proyek", "Pengalaman", "Kontak"].map((item) => (
+          <li key={item}>
+            <a
+              href={`#${item.toLowerCase()}`}
+              className="text-base md:text-lg font-medium text-white hover:underline"
+            >
+              {item}
+            </a>
+          </li>
+        ))}
       </ul>
     </div>
   );
