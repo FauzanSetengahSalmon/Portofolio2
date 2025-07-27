@@ -36,7 +36,7 @@ function App() {
 
           <div className="flex flex-col sm:flex-row justify-center md:justify-start gap-4">
             <a
-              href="https://drive.google.com/file/d/1lkQdpZQ7vP5H187cIU5sqI0j4TtOnODc/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1lkQdpZQ7vP5H187cIU5sqI0j4TtOnODc/view?usp=drive_link" target="_blank"
               className="px-4 py-2 bg-white text-black rounded-md font-medium transition hover:bg-zinc-200 text-center"
             >
               Download CV <i className="ri-download-line ri-lg"></i>
