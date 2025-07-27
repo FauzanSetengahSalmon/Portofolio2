@@ -36,7 +36,7 @@ function App() {
 
           <div className="flex flex-col sm:flex-row justify-center md:justify-start gap-4">
             <a
-              href="#"
+              href="https://drive.google.com/file/d/1lkQdpZQ7vP5H187cIU5sqI0j4TtOnODc/view?usp=drive_link"
               className="px-4 py-2 bg-white text-black rounded-md font-medium transition hover:bg-zinc-200 text-center"
             >
               Download CV <i className="ri-download-line ri-lg"></i>
@@ -206,7 +206,8 @@ function App() {
                 <div className="mt-8 text-center">
                   <a
                     href={proyek.link}
-                    className="bg-violet-700 p-3 rounded-lg block border border-zinc-600 hover:bg-violet-600" target="_blank"
+                    className="bg-violet-700 p-3 rounded-lg block border border-zinc-600 hover:bg-violet-600"
+                    target="_blank"
                   >
                     Lihat Repository
                   </a>
@@ -264,7 +265,8 @@ function App() {
                 <div className="mt-8 text-center">
                   <a
                     href={proyek2.link}
-                    className="bg-violet-700 p-3 rounded-lg block border border-zinc-600 hover:bg-violet-600" target="_blank"
+                    className="bg-violet-700 p-3 rounded-lg block border border-zinc-600 hover:bg-violet-600"
+                    target="_blank"
                   >
                     Lihat Penjelasan
                   </a>
@@ -324,7 +326,7 @@ function App() {
           ))}
         </div>
       </div>
-      
+
       <div className="kontak mt-32 sm:p-10 p-0" id="kontak">
         <h1
           className="text-4xl mb-2 font-bold text-center"
